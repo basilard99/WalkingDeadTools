@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FactionNameType } from './faction-name-type/faction-name-type'
+
+var test = new FactionNameType('howdy');
 
 @Component({
   selector: 'app-root',
@@ -6,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 class AppComponent {
-  testprop = 'myapp';
+  testprop = test.name;
 };
 
 export { AppComponent };
