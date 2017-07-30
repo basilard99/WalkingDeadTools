@@ -9,7 +9,6 @@ var test = new FactionNameType('howdy');
   styleUrls: ['./app.component.css']
 })
 class AppComponent {
-  testprop = test.name;
 };
 
 export { AppComponent };

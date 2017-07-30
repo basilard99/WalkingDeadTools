@@ -1,5 +1,5 @@
 export class FactionNameType {
-  private _name: string
+  private _name: string;
 
   constructor(name:string) {
     if (name.length === 0) {
